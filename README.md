@@ -1,6 +1,6 @@
 # GMTK Game Jam 2025 – *GAME TITLE TBA*
 
-This is my submission for the [Game Maker's Toolkit Game Jam 2025](https://itch.io/jam/gmtk-2025) (**Wednesday, July 30th at 8:00 PM to Sunday, August 3rd at 8:00 PM**, UTC+3).
+This is my submission for the [Game Maker's Toolkit Game Jam 2025](https://itch.io/jam/gmtk-2025), which runs from **Wednesday, July 30th at 8:00 PM to Sunday, August 3rd at 8:00 PM**, UTC+3.
 
 ## About the project
 *DESCRIPTION TBA*  
