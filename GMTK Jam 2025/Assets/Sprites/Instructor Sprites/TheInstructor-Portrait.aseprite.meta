@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 68c5ff087a714314fb9dbddde228c20a
+guid: b6a9c3ff318f7e44fbc62ccf8d246e2b
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: CavernTileset
+  - name: TheInstructor-Portrait
     originalName: 
-    pivot: {x: 0.5, y: -0.15315315}
+    pivot: {x: 0.4857143, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 128
-      height: 111
-    spriteID: b9562a8c37241f84aac0cf2b81e941a5
+      width: 35
+      height: 64
+    spriteID: 9bac6162807eeb84bbf460568b4fa787
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1160065115
+      value0: 1374886454
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: CavernTileset
+    name: TheInstructor-Portrait
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: CavernTileset
+    - name: TheInstructor-Portrait
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 17
-        width: 128
-        height: 111
-      spriteId: b9562a8c37241f84aac0cf2b81e941a5
+        x: 15
+        y: 0
+        width: 35
+        height: 64
+      spriteId: 9bac6162807eeb84bbf460568b4fa787
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -181,5 +181,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 128, y: 128}
-  previousTextureSize: {x: 256, y: 128}
+  canvasSize: {x: 64, y: 64}
+  previousTextureSize: {x: 64, y: 128}

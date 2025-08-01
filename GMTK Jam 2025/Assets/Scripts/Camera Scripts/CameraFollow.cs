@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public float pixelsPerUnit = 16f;
+    // public float pixelsPerUnit = 16f;
     public bool followTarget = true;
 
     public bool constrainX = false;
@@ -39,12 +39,12 @@ public class CameraFollow : MonoBehaviour
 
         Vector3 smoothPosition = Vector3.MoveTowards(transform.position, targetPosition, followSpeed);
 
-        float unitsPerPixel = 1f / pixelsPerUnit;
-        Vector3 snappedPosition = new Vector3(
-            Mathf.Round(smoothPosition.x / unitsPerPixel) * unitsPerPixel,
-            Mathf.Round(smoothPosition.y / unitsPerPixel) * unitsPerPixel,
-            -10
-        );
+        // float unitsPerPixel = 1f / pixelsPerUnit;
+        // Vector3 snappedPosition = new Vector3(
+        //     Mathf.Round(smoothPosition.x / unitsPerPixel) * unitsPerPixel,
+        //     Mathf.Round(smoothPosition.y / unitsPerPixel) * unitsPerPixel,
+        //     -10
+        // );
 
         if (constrainX)
             smoothPosition.x = Mathf.Clamp(smoothPosition.x, minX, maxX);
